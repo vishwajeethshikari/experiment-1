@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feature Integration Demo</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    header, section, footer { margin-bottom: 2rem; }
+    form { max-width: 420px; }
+    label { display:block; margin: .5rem 0 .25rem; }
+    input, textarea, button { width: 100%; padding: .6rem; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Web Project</h1>
+    <p>Baseline page before features.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        This project demonstrates proper branching and merging using Git.
+        The About section was added on the <code>about-feature</code> branch.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form aria-label="Contact form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 My Web Project</small>
+  </footer>
+</body>
+</html>
